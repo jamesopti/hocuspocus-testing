@@ -9,6 +9,7 @@
     "node": "14.x"
   },
   "scripts": {
+    "dev": "node --experimental-specifier-resolution=node --loader ts-node/esm ./src/index.ts",
     "jest": "NODE_OPTIONS='--experimental-vm-modules --experimental-modules --experimental-specifier-resolution=node' jest"
   },
   "dependencies": {
@@ -18,7 +19,8 @@
     "supertest": "^6.1.4",
     "superwstest": "^1.4.0",
     "ts-jest": "^27.0.4",
-    "ts-node": "^10.0.0"
+    "ts-node": "^10.0.0",
+    "y-protocols": "^1.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.14.8",
