@@ -10,7 +10,7 @@
   },
   "scripts": {
     "dev": "node --experimental-specifier-resolution=node --loader ts-node/esm ./src/index.ts",
-    "jest": "NODE_OPTIONS='--experimental-vm-modules --experimental-modules --experimental-specifier-resolution=node' jest"
+    "jest": "NODE_OPTIONS='--experimental-vm-modules --experimental-specifier-resolution=node' jest"
   },
   "dependencies": {
     "@hocuspocus/server": "^1.0.0-alpha.60",
