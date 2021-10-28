@@ -4,6 +4,11 @@ Setting up unit tests for Hocuspocus
 
 Struggling with compiling ES modules like @hocuspocus/server
 
+## Solutions
+
+1. `main` - Using ts-jest
+2. `babel-jest-version` - Using babel-jest
+
 ## To Reproduce
 
 `yarn install`
